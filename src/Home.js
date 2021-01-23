@@ -26,7 +26,7 @@ const Home = () => {
   const isLoading = isSetsLoading || isTeamsLoading;
 
   return (
-    <div className="Home">
+    <div>
       <Box h={16} mb={6} backgroundColor="blue.800" p={4}>
         <Flex h="100%" justifyContent="space-between" alignItems="center">
           <Heading as="h1" color="blue.100">

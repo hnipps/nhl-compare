@@ -1,10 +1,21 @@
-import { Box, Center, Heading, Img, VStack } from "@chakra-ui/react";
+import {
+  Box,
+  Center,
+  Grid,
+  Heading,
+  Img,
+  Stat,
+  StatHelpText,
+  StatLabel,
+  StatNumber,
+  VStack,
+} from "@chakra-ui/react";
 import React from "react";
 import { useQuery } from "react-query";
 import getTeams from "../client/api/get-teams";
 
 const PlayerCard = ({
-  player: { firstName, lastName, image, teamId },
+  player: { firstName, lastName, image, teamId, stats },
   rank,
 }) => {
   const { data: teams } = useQuery("teams", getTeams);
@@ -15,7 +26,7 @@ const PlayerCard = ({
       borderWidth="1px"
       borderRadius="lg"
       overflow="hidden"
-      padding={4}
+      padding={5}
     >
       <Heading as="h3" fontSize="md">
         {rank}
@@ -39,9 +50,16 @@ const PlayerCard = ({
           <Img maxW="100%" maxH="100%" src={logo} alt={`${teamName} logo`} />
         </Center>
       </Box>
-      <Heading as="h4" fontSize="lg">
+      <Heading as="h4" fontSize="lg" mb={6}>
         {firstName} {lastName}
       </Heading>
+      <Grid templateColumns="repeat(2, 1fr)" gap={2} w="100%">
+        <Stat>
+          <StatLabel>Goals</StatLabel>
+          <StatNumber>{stats.goals || "N/A"}</StatNumber>
+          <StatHelpText>2019-2020</StatHelpText>
+        </Stat>
+      </Grid>
     </VStack>
   );
 };
