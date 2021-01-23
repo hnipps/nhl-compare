@@ -5,7 +5,7 @@ const fetch = require("node-fetch");
 //     method: "POST",
 //   }).then((res) => res.json());
 
-const getPlayers = () =>
-  fetch("http://localhost:3004/players").then((res) => res.json());
+const getSets = () =>
+  fetch("http://localhost:3004/sets").then((res) => res.json());
 
-export default getPlayers;
+export default getSets;

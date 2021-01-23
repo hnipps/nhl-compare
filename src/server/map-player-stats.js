@@ -8,8 +8,8 @@ const mapPlayerStats = (players, stats) =>
 
     return {
       ...player,
-      stats: playerStats?.stats,
+      stats: (playerStats && playerStats.stats) || {},
     };
   });
 
-export default mapPlayerStats;
+module.exports = { default: mapPlayerStats };
