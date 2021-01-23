@@ -1926,644 +1926,74 @@
   ],
   "teams": [
     {
-      "id": "9141e04cc3b9c7cfe6de512fb99a63c1ebfda344",
-      "name": "Penguins",
-      "city": "Pittsburgh",
-      "logo": "https://assets.boomfantasy.com/timHortons/logos/Penguins-v1.png",
-      "abbr": "PIT"
+      "id": "ae6c68d6e401a57860408e41c804c181cc035577",
+      "name": "Blue Jackets",
+      "city": "Columbus",
+      "logo": "https://assets.boomfantasy.com/timHortons/logos/BlueJackets-v1.png",
+      "abbr": "CBJ"
     },
     {
-      "id": "d74f481a5c1bfcdd60d0cc8233af344ca32ba7c3",
-      "name": "Rangers",
-      "city": "New York",
-      "abbr": "NYR",
-      "logo": "https://assets.boomfantasy.com/timHortons/logos/Rangers-v1.png"
+      "id": "85d75f3666247a23e47ff15076b0b3260bcbdc03",
+      "name": "Lightning",
+      "city": "Tampa Bay",
+      "abbr": "TB",
+      "logo": "https://assets.boomfantasy.com/timHortons/logos/Lightning-v1.png"
     },
     {
-      "id": "f8b43806bac6cb1c398f8b7261b367854da2f965",
-      "name": "Maple Leafs",
-      "city": "Toronto",
-      "logo": "https://assets.boomfantasy.com/timHortons/logos/MapleLeafs-v1.png",
-      "abbr": "TOR"
+      "id": "5cddd865bbb1ce291350679a312590d7826df412",
+      "name": "Canucks",
+      "city": "Vancouver",
+      "logo": "https://assets.boomfantasy.com/timHortons/logos/Canucks-v1.png",
+      "abbr": "VAN"
     },
     {
-      "id": "5846661597b33784000bb3d1b40a2b6edd706f17",
-      "name": "Oilers",
-      "city": "Edmonton",
-      "abbr": "EDM",
-      "logo": "https://assets.boomfantasy.com/timHortons/logos/Oilers-v1.png"
+      "id": "9679ee8c7c651c57298f72e5b303f8446e38498c",
+      "name": "Canadiens",
+      "city": "Montreal",
+      "abbr": "MTL",
+      "logo": "https://assets.boomfantasy.com/timHortons/logos/Canadiens-v1.png"
     },
     {
-      "id": "9812e6e34f6b4454b46070758445967c4ddcee3e",
-      "name": "Capitals",
-      "city": "Washington",
-      "logo": "https://assets.boomfantasy.com/timHortons/logos/Capitals-v1.png",
-      "abbr": "WSH"
+      "id": "22cec5cac6a13976b5f32f82293f820f507b3a86",
+      "name": "Bruins",
+      "city": "Boston",
+      "logo": "https://assets.boomfantasy.com/timHortons/logos/Bruins-v1.png",
+      "abbr": "BOS"
     },
     {
-      "id": "00166a0aabb5b9faabb9fbbcfd78e077597eb647",
-      "name": "Sabres",
-      "city": "Buffalo",
-      "abbr": "BUF",
-      "logo": "https://assets.boomfantasy.com/timHortons/logos/Sabres-v1.png"
+      "id": "0157448737b7483c5f45d958e1295c257391ce1e",
+      "name": "Flyers",
+      "city": "Philadelphia",
+      "abbr": "PHI",
+      "logo": "https://assets.boomfantasy.com/timHortons/logos/Flyers-v1.png"
     },
     {
-      "id": "4dd250048a6f0903adb55e7f5f8daa83043cdb58",
-      "name": "Blackhawks",
-      "city": "Chicago",
-      "logo": "https://assets.boomfantasy.com/timHortons/logos/Blackhawks-v1.png",
-      "abbr": "CHI"
+      "id": "0bdb6f5c3934a631eadd71891ecc2f6b7dd7ad77",
+      "name": "Blues",
+      "city": "St. Louis",
+      "logo": "https://assets.boomfantasy.com/timHortons/logos/Blues-v1.png",
+      "abbr": "STL"
     },
     {
-      "id": "a4a74c63cbaad6249b0a939859b8dabcf560204b",
-      "name": "Red Wings",
-      "city": "Detroit",
-      "abbr": "DET",
-      "logo": "https://assets.boomfantasy.com/timHortons/logos/RedWings-v1.png"
+      "id": "7128c2ba203f044799577d71a72bd4701c4a6c68",
+      "name": "Kings",
+      "city": "Los Angeles",
+      "abbr": "LA",
+      "logo": "https://assets.boomfantasy.com/timHortons/logos/Kings-v1.png"
     },
     {
-      "id": "20b2920bc6aea1a3dbac9a7a5967587daa3ea747",
-      "name": "Wild",
-      "city": "Minnesota",
-      "logo": "https://assets.boomfantasy.com/timHortons/logos/Wild-v1.png",
-      "abbr": "MIN"
+      "id": "dd1847636ec1ac16fb97df3b4dc7b9a9f155167d",
+      "name": "Jets",
+      "city": "Winnipeg",
+      "logo": "https://assets.boomfantasy.com/timHortons/logos/Jets-v1.png",
+      "abbr": "WPG"
     },
     {
-      "id": "15c99109b01457038d1d3ef76ac9a21b085ce9a3",
-      "name": "Sharks",
-      "city": "San Jose",
-      "abbr": "SJ",
-      "logo": "https://assets.boomfantasy.com/timHortons/logos/Sharks-v1.png"
-    },
-    {
-      "id": "5a8dfc1e6f5015f8d9eabb2698e7ce17f49f2349",
-      "name": "Stars",
-      "city": "Dallas",
-      "logo": "https://assets.boomfantasy.com/timHortons/logos/Stars-v1.png",
-      "abbr": "DAL"
-    },
-    {
-      "id": "ff58a430fda1c1df70d0091196da205aaa216eab",
-      "name": "Predators",
-      "city": "Nashville",
-      "abbr": "NSH",
-      "logo": "https://assets.boomfantasy.com/timHortons/logos/Predators-v1.png"
-    },
-    {
-      "id": "f8147182de1d3b489e47f86a7004d09a3e7e2ee7",
-      "name": "Coyotes",
-      "city": "Arizona",
-      "logo": "https://assets.boomfantasy.com/timHortons/logos/Coyotes-v1.png",
-      "abbr": "ARI"
-    },
-    {
-      "id": "8a9b122d0904bc5c03304b303f0a361b1adeb93f",
-      "name": "Golden Knights",
-      "city": "Vegas",
-      "abbr": "VGK",
-      "logo": "https://assets.boomfantasy.com/timHortons/logos/GoldenKnights-v1.png"
-    },
-    {
-      "id": "66da70adbcf30ea7f41cfd87b3c7d25f3160da4b",
-      "name": "Ducks",
-      "city": "Anaheim",
-      "logo": "https://assets.boomfantasy.com/timHortons/logos/Ducks-v1.png",
-      "abbr": "ANA"
-    },
-    {
-      "id": "1f3600c5fce129fc2df2ca3db7d9f81da15f6504",
-      "name": "Avalanche",
-      "city": "Colorado",
-      "abbr": "COL",
-      "logo": "https://assets.boomfantasy.com/timHortons/logos/Avalanche-v1.png"
-    },
-    [
-      {
-        "id": "9141e04cc3b9c7cfe6de512fb99a63c1ebfda344",
-        "name": "Penguins",
-        "city": "Pittsburgh",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Penguins-v1.png",
-        "abbr": "PIT"
-      },
-      {
-        "id": "d74f481a5c1bfcdd60d0cc8233af344ca32ba7c3",
-        "name": "Rangers",
-        "city": "New York",
-        "abbr": "NYR",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Rangers-v1.png"
-      },
-      {
-        "id": "f8b43806bac6cb1c398f8b7261b367854da2f965",
-        "name": "Maple Leafs",
-        "city": "Toronto",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/MapleLeafs-v1.png",
-        "abbr": "TOR"
-      },
-      {
-        "id": "5846661597b33784000bb3d1b40a2b6edd706f17",
-        "name": "Oilers",
-        "city": "Edmonton",
-        "abbr": "EDM",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Oilers-v1.png"
-      },
-      {
-        "id": "9812e6e34f6b4454b46070758445967c4ddcee3e",
-        "name": "Capitals",
-        "city": "Washington",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Capitals-v1.png",
-        "abbr": "WSH"
-      },
-      {
-        "id": "00166a0aabb5b9faabb9fbbcfd78e077597eb647",
-        "name": "Sabres",
-        "city": "Buffalo",
-        "abbr": "BUF",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Sabres-v1.png"
-      },
-      {
-        "id": "4dd250048a6f0903adb55e7f5f8daa83043cdb58",
-        "name": "Blackhawks",
-        "city": "Chicago",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Blackhawks-v1.png",
-        "abbr": "CHI"
-      },
-      {
-        "id": "a4a74c63cbaad6249b0a939859b8dabcf560204b",
-        "name": "Red Wings",
-        "city": "Detroit",
-        "abbr": "DET",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/RedWings-v1.png"
-      },
-      {
-        "id": "20b2920bc6aea1a3dbac9a7a5967587daa3ea747",
-        "name": "Wild",
-        "city": "Minnesota",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Wild-v1.png",
-        "abbr": "MIN"
-      },
-      {
-        "id": "15c99109b01457038d1d3ef76ac9a21b085ce9a3",
-        "name": "Sharks",
-        "city": "San Jose",
-        "abbr": "SJ",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Sharks-v1.png"
-      },
-      {
-        "id": "5a8dfc1e6f5015f8d9eabb2698e7ce17f49f2349",
-        "name": "Stars",
-        "city": "Dallas",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Stars-v1.png",
-        "abbr": "DAL"
-      },
-      {
-        "id": "ff58a430fda1c1df70d0091196da205aaa216eab",
-        "name": "Predators",
-        "city": "Nashville",
-        "abbr": "NSH",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Predators-v1.png"
-      },
-      {
-        "id": "f8147182de1d3b489e47f86a7004d09a3e7e2ee7",
-        "name": "Coyotes",
-        "city": "Arizona",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Coyotes-v1.png",
-        "abbr": "ARI"
-      },
-      {
-        "id": "8a9b122d0904bc5c03304b303f0a361b1adeb93f",
-        "name": "Golden Knights",
-        "city": "Vegas",
-        "abbr": "VGK",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/GoldenKnights-v1.png"
-      },
-      {
-        "id": "66da70adbcf30ea7f41cfd87b3c7d25f3160da4b",
-        "name": "Ducks",
-        "city": "Anaheim",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Ducks-v1.png",
-        "abbr": "ANA"
-      },
-      {
-        "id": "1f3600c5fce129fc2df2ca3db7d9f81da15f6504",
-        "name": "Avalanche",
-        "city": "Colorado",
-        "abbr": "COL",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Avalanche-v1.png"
-      }
-    ],
-    [
-      {
-        "id": "9141e04cc3b9c7cfe6de512fb99a63c1ebfda344",
-        "name": "Penguins",
-        "city": "Pittsburgh",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Penguins-v1.png",
-        "abbr": "PIT"
-      },
-      {
-        "id": "d74f481a5c1bfcdd60d0cc8233af344ca32ba7c3",
-        "name": "Rangers",
-        "city": "New York",
-        "abbr": "NYR",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Rangers-v1.png"
-      },
-      {
-        "id": "f8b43806bac6cb1c398f8b7261b367854da2f965",
-        "name": "Maple Leafs",
-        "city": "Toronto",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/MapleLeafs-v1.png",
-        "abbr": "TOR"
-      },
-      {
-        "id": "5846661597b33784000bb3d1b40a2b6edd706f17",
-        "name": "Oilers",
-        "city": "Edmonton",
-        "abbr": "EDM",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Oilers-v1.png"
-      },
-      {
-        "id": "9812e6e34f6b4454b46070758445967c4ddcee3e",
-        "name": "Capitals",
-        "city": "Washington",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Capitals-v1.png",
-        "abbr": "WSH"
-      },
-      {
-        "id": "00166a0aabb5b9faabb9fbbcfd78e077597eb647",
-        "name": "Sabres",
-        "city": "Buffalo",
-        "abbr": "BUF",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Sabres-v1.png"
-      },
-      {
-        "id": "4dd250048a6f0903adb55e7f5f8daa83043cdb58",
-        "name": "Blackhawks",
-        "city": "Chicago",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Blackhawks-v1.png",
-        "abbr": "CHI"
-      },
-      {
-        "id": "a4a74c63cbaad6249b0a939859b8dabcf560204b",
-        "name": "Red Wings",
-        "city": "Detroit",
-        "abbr": "DET",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/RedWings-v1.png"
-      },
-      {
-        "id": "20b2920bc6aea1a3dbac9a7a5967587daa3ea747",
-        "name": "Wild",
-        "city": "Minnesota",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Wild-v1.png",
-        "abbr": "MIN"
-      },
-      {
-        "id": "15c99109b01457038d1d3ef76ac9a21b085ce9a3",
-        "name": "Sharks",
-        "city": "San Jose",
-        "abbr": "SJ",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Sharks-v1.png"
-      },
-      {
-        "id": "5a8dfc1e6f5015f8d9eabb2698e7ce17f49f2349",
-        "name": "Stars",
-        "city": "Dallas",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Stars-v1.png",
-        "abbr": "DAL"
-      },
-      {
-        "id": "ff58a430fda1c1df70d0091196da205aaa216eab",
-        "name": "Predators",
-        "city": "Nashville",
-        "abbr": "NSH",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Predators-v1.png"
-      },
-      {
-        "id": "f8147182de1d3b489e47f86a7004d09a3e7e2ee7",
-        "name": "Coyotes",
-        "city": "Arizona",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Coyotes-v1.png",
-        "abbr": "ARI"
-      },
-      {
-        "id": "8a9b122d0904bc5c03304b303f0a361b1adeb93f",
-        "name": "Golden Knights",
-        "city": "Vegas",
-        "abbr": "VGK",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/GoldenKnights-v1.png"
-      },
-      {
-        "id": "66da70adbcf30ea7f41cfd87b3c7d25f3160da4b",
-        "name": "Ducks",
-        "city": "Anaheim",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Ducks-v1.png",
-        "abbr": "ANA"
-      },
-      {
-        "id": "1f3600c5fce129fc2df2ca3db7d9f81da15f6504",
-        "name": "Avalanche",
-        "city": "Colorado",
-        "abbr": "COL",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Avalanche-v1.png"
-      }
-    ],
-    [
-      {
-        "id": "9141e04cc3b9c7cfe6de512fb99a63c1ebfda344",
-        "name": "Penguins",
-        "city": "Pittsburgh",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Penguins-v1.png",
-        "abbr": "PIT"
-      },
-      {
-        "id": "d74f481a5c1bfcdd60d0cc8233af344ca32ba7c3",
-        "name": "Rangers",
-        "city": "New York",
-        "abbr": "NYR",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Rangers-v1.png"
-      },
-      {
-        "id": "f8b43806bac6cb1c398f8b7261b367854da2f965",
-        "name": "Maple Leafs",
-        "city": "Toronto",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/MapleLeafs-v1.png",
-        "abbr": "TOR"
-      },
-      {
-        "id": "5846661597b33784000bb3d1b40a2b6edd706f17",
-        "name": "Oilers",
-        "city": "Edmonton",
-        "abbr": "EDM",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Oilers-v1.png"
-      },
-      {
-        "id": "9812e6e34f6b4454b46070758445967c4ddcee3e",
-        "name": "Capitals",
-        "city": "Washington",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Capitals-v1.png",
-        "abbr": "WSH"
-      },
-      {
-        "id": "00166a0aabb5b9faabb9fbbcfd78e077597eb647",
-        "name": "Sabres",
-        "city": "Buffalo",
-        "abbr": "BUF",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Sabres-v1.png"
-      },
-      {
-        "id": "4dd250048a6f0903adb55e7f5f8daa83043cdb58",
-        "name": "Blackhawks",
-        "city": "Chicago",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Blackhawks-v1.png",
-        "abbr": "CHI"
-      },
-      {
-        "id": "a4a74c63cbaad6249b0a939859b8dabcf560204b",
-        "name": "Red Wings",
-        "city": "Detroit",
-        "abbr": "DET",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/RedWings-v1.png"
-      },
-      {
-        "id": "20b2920bc6aea1a3dbac9a7a5967587daa3ea747",
-        "name": "Wild",
-        "city": "Minnesota",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Wild-v1.png",
-        "abbr": "MIN"
-      },
-      {
-        "id": "15c99109b01457038d1d3ef76ac9a21b085ce9a3",
-        "name": "Sharks",
-        "city": "San Jose",
-        "abbr": "SJ",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Sharks-v1.png"
-      },
-      {
-        "id": "5a8dfc1e6f5015f8d9eabb2698e7ce17f49f2349",
-        "name": "Stars",
-        "city": "Dallas",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Stars-v1.png",
-        "abbr": "DAL"
-      },
-      {
-        "id": "ff58a430fda1c1df70d0091196da205aaa216eab",
-        "name": "Predators",
-        "city": "Nashville",
-        "abbr": "NSH",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Predators-v1.png"
-      },
-      {
-        "id": "f8147182de1d3b489e47f86a7004d09a3e7e2ee7",
-        "name": "Coyotes",
-        "city": "Arizona",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Coyotes-v1.png",
-        "abbr": "ARI"
-      },
-      {
-        "id": "8a9b122d0904bc5c03304b303f0a361b1adeb93f",
-        "name": "Golden Knights",
-        "city": "Vegas",
-        "abbr": "VGK",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/GoldenKnights-v1.png"
-      },
-      {
-        "id": "66da70adbcf30ea7f41cfd87b3c7d25f3160da4b",
-        "name": "Ducks",
-        "city": "Anaheim",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Ducks-v1.png",
-        "abbr": "ANA"
-      },
-      {
-        "id": "1f3600c5fce129fc2df2ca3db7d9f81da15f6504",
-        "name": "Avalanche",
-        "city": "Colorado",
-        "abbr": "COL",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Avalanche-v1.png"
-      }
-    ],
-    [
-      {
-        "id": "9141e04cc3b9c7cfe6de512fb99a63c1ebfda344",
-        "name": "Penguins",
-        "city": "Pittsburgh",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Penguins-v1.png",
-        "abbr": "PIT"
-      },
-      {
-        "id": "d74f481a5c1bfcdd60d0cc8233af344ca32ba7c3",
-        "name": "Rangers",
-        "city": "New York",
-        "abbr": "NYR",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Rangers-v1.png"
-      },
-      {
-        "id": "f8b43806bac6cb1c398f8b7261b367854da2f965",
-        "name": "Maple Leafs",
-        "city": "Toronto",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/MapleLeafs-v1.png",
-        "abbr": "TOR"
-      },
-      {
-        "id": "5846661597b33784000bb3d1b40a2b6edd706f17",
-        "name": "Oilers",
-        "city": "Edmonton",
-        "abbr": "EDM",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Oilers-v1.png"
-      },
-      {
-        "id": "9812e6e34f6b4454b46070758445967c4ddcee3e",
-        "name": "Capitals",
-        "city": "Washington",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Capitals-v1.png",
-        "abbr": "WSH"
-      },
-      {
-        "id": "00166a0aabb5b9faabb9fbbcfd78e077597eb647",
-        "name": "Sabres",
-        "city": "Buffalo",
-        "abbr": "BUF",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Sabres-v1.png"
-      },
-      {
-        "id": "4dd250048a6f0903adb55e7f5f8daa83043cdb58",
-        "name": "Blackhawks",
-        "city": "Chicago",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Blackhawks-v1.png",
-        "abbr": "CHI"
-      },
-      {
-        "id": "a4a74c63cbaad6249b0a939859b8dabcf560204b",
-        "name": "Red Wings",
-        "city": "Detroit",
-        "abbr": "DET",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/RedWings-v1.png"
-      },
-      {
-        "id": "20b2920bc6aea1a3dbac9a7a5967587daa3ea747",
-        "name": "Wild",
-        "city": "Minnesota",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Wild-v1.png",
-        "abbr": "MIN"
-      },
-      {
-        "id": "15c99109b01457038d1d3ef76ac9a21b085ce9a3",
-        "name": "Sharks",
-        "city": "San Jose",
-        "abbr": "SJ",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Sharks-v1.png"
-      },
-      {
-        "id": "5a8dfc1e6f5015f8d9eabb2698e7ce17f49f2349",
-        "name": "Stars",
-        "city": "Dallas",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Stars-v1.png",
-        "abbr": "DAL"
-      },
-      {
-        "id": "ff58a430fda1c1df70d0091196da205aaa216eab",
-        "name": "Predators",
-        "city": "Nashville",
-        "abbr": "NSH",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Predators-v1.png"
-      },
-      {
-        "id": "f8147182de1d3b489e47f86a7004d09a3e7e2ee7",
-        "name": "Coyotes",
-        "city": "Arizona",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Coyotes-v1.png",
-        "abbr": "ARI"
-      },
-      {
-        "id": "8a9b122d0904bc5c03304b303f0a361b1adeb93f",
-        "name": "Golden Knights",
-        "city": "Vegas",
-        "abbr": "VGK",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/GoldenKnights-v1.png"
-      },
-      {
-        "id": "66da70adbcf30ea7f41cfd87b3c7d25f3160da4b",
-        "name": "Ducks",
-        "city": "Anaheim",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Ducks-v1.png",
-        "abbr": "ANA"
-      },
-      {
-        "id": "1f3600c5fce129fc2df2ca3db7d9f81da15f6504",
-        "name": "Avalanche",
-        "city": "Colorado",
-        "abbr": "COL",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Avalanche-v1.png"
-      }
-    ],
-    [
-      {
-        "id": "ae6c68d6e401a57860408e41c804c181cc035577",
-        "name": "Blue Jackets",
-        "city": "Columbus",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/BlueJackets-v1.png",
-        "abbr": "CBJ"
-      },
-      {
-        "id": "85d75f3666247a23e47ff15076b0b3260bcbdc03",
-        "name": "Lightning",
-        "city": "Tampa Bay",
-        "abbr": "TB",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Lightning-v1.png"
-      },
-      {
-        "id": "5cddd865bbb1ce291350679a312590d7826df412",
-        "name": "Canucks",
-        "city": "Vancouver",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Canucks-v1.png",
-        "abbr": "VAN"
-      },
-      {
-        "id": "9679ee8c7c651c57298f72e5b303f8446e38498c",
-        "name": "Canadiens",
-        "city": "Montreal",
-        "abbr": "MTL",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Canadiens-v1.png"
-      },
-      {
-        "id": "22cec5cac6a13976b5f32f82293f820f507b3a86",
-        "name": "Bruins",
-        "city": "Boston",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Bruins-v1.png",
-        "abbr": "BOS"
-      },
-      {
-        "id": "0157448737b7483c5f45d958e1295c257391ce1e",
-        "name": "Flyers",
-        "city": "Philadelphia",
-        "abbr": "PHI",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Flyers-v1.png"
-      },
-      {
-        "id": "0bdb6f5c3934a631eadd71891ecc2f6b7dd7ad77",
-        "name": "Blues",
-        "city": "St. Louis",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Blues-v1.png",
-        "abbr": "STL"
-      },
-      {
-        "id": "7128c2ba203f044799577d71a72bd4701c4a6c68",
-        "name": "Kings",
-        "city": "Los Angeles",
-        "abbr": "LA",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Kings-v1.png"
-      },
-      {
-        "id": "dd1847636ec1ac16fb97df3b4dc7b9a9f155167d",
-        "name": "Jets",
-        "city": "Winnipeg",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Jets-v1.png",
-        "abbr": "WPG"
-      },
-      {
-        "id": "16418a637d55266ef8bc7b0cbb493a8a7f5ac4f0",
-        "name": "Senators",
-        "city": "Ottawa",
-        "abbr": "OTT",
-        "logo": "https://assets.boomfantasy.com/timHortons/logos/Senators-v1.png"
-      }
-    ]
+      "id": "16418a637d55266ef8bc7b0cbb493a8a7f5ac4f0",
+      "name": "Senators",
+      "city": "Ottawa",
+      "abbr": "OTT",
+      "logo": "https://assets.boomfantasy.com/timHortons/logos/Senators-v1.png"
+    }
   ]
 }

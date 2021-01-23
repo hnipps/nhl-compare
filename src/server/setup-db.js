@@ -11,13 +11,15 @@ const setupDB = async () => {
 
   console.log(JSON.stringify(sets));
 
-  fetch("http://localhost:3004/teams", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(teams),
-  });
+  teams.forEach((teamItem) =>
+    fetch("http://localhost:3004/teams", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(teamItem),
+    })
+  );
 
   const stats = await getStats();
 

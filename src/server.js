@@ -7,6 +7,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 import getSets from "./server/get-sets";
 import getStats from "./server/get-stats";
 import getTeams from "./server/get-teams";
+import { QueryClient, QueryClientProvider } from "react-query";
 
 const assets = require(process.env.RAZZLE_ASSETS_MANIFEST);
 
@@ -16,12 +17,15 @@ server
   .use(express.static(process.env.RAZZLE_PUBLIC_DIR))
   .get("/", (req, res) => {
     const context = {};
+    const queryClient = new QueryClient();
     const markup = renderToString(
-      <ChakraProvider>
-        <StaticRouter context={context} location={req.url}>
-          <App />
-        </StaticRouter>
-      </ChakraProvider>
+      <QueryClientProvider client={queryClient}>
+        <ChakraProvider>
+          <StaticRouter context={context} location={req.url}>
+            <App />
+          </StaticRouter>
+        </ChakraProvider>
+      </QueryClientProvider>
     );
 
     if (context.url) {

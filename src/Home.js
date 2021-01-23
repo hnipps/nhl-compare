@@ -6,32 +6,24 @@ import {
   Flex,
   Grid,
   Heading,
-  Image,
+  Img,
+  Spinner,
   Stack,
   VStack,
 } from "@chakra-ui/react";
+import { useQuery } from "react-query";
+import getSets from "./client/api/get-sets";
+import getTeams from "./server/get-teams";
+import PlayerCard from "./components/PlayerCard";
 
 const Home = () => {
-  const [sets, setSets] = useState([]);
-  const [teams, setTeams] = useState([]);
+  const { isLoading: isSetsLoading, data: sets } = useQuery("sets", getSets);
+  const { isLoading: isTeamsLoading, data: teams } = useQuery(
+    "teams",
+    getTeams
+  );
 
-  useEffect(() => {
-    const getSets = async () => {
-      const sets = await fetch("/sets").then((res) => res.json());
-      setSets(sets);
-    };
-
-    getSets();
-  }, []);
-
-  useEffect(() => {
-    const getTeams = async () => {
-      const teams = await fetch("/teams").then((res) => res.json());
-      setTeams(teams);
-    };
-
-    getTeams();
-  }, []);
+  const isLoading = isSetsLoading || isTeamsLoading;
 
   return (
     <div className="Home">
@@ -42,57 +34,24 @@ const Home = () => {
           </Heading>
         </Flex>
       </Box>
-      <Stack p={4}>
-        {sets.map(({ id, players }) => (
-          <Box key={`set-${id}`} mb={8}>
-            <Heading fontSize="3xl" mb={4} textAlign="left">
-              Set {id}
-            </Heading>
-            <Grid templateColumns="repeat(6, 1fr)" gap={6}>
-              {players.map(({ firstName, lastName, image, teamId }, i) => (
-                <VStack
-                  key={`${firstName}-${lastName}`}
-                  borderWidth="1px"
-                  borderRadius="lg"
-                  overflow="hidden"
-                  padding={4}
-                >
-                  <Heading as="h3" fontSize="md">
-                    {i + 1}
-                  </Heading>
-                  <Box position="relative">
-                    <Image
-                      borderRadius="full"
-                      boxSize="150px"
-                      src={image}
-                      alt={`${firstName} ${lastName}`}
-                    />
-                    <Center
-                      position="absolute"
-                      bottom={0}
-                      right={0}
-                      backgroundColor="white"
-                      borderRadius="full"
-                      boxSize="50px"
-                      p={1}
-                    >
-                      <Image
-                        maxW="100%"
-                        maxH="100%"
-                        src={teams.find(({ id }) => id === teamId)?.logo}
-                        alt={`${firstName} ${lastName}`}
-                      />
-                    </Center>
-                  </Box>
-                  <p>
-                    {firstName} {lastName}
-                  </p>
-                </VStack>
-              ))}
-            </Grid>
-          </Box>
-        ))}
-      </Stack>
+      {isLoading ? (
+        <Spinner />
+      ) : (
+        <Stack p={4}>
+          {sets.map(({ id, players }) => (
+            <Box key={`set-${id}`} mb={8}>
+              <Heading fontSize="3xl" mb={4} textAlign="left">
+                Set {id}
+              </Heading>
+              <Grid templateColumns="repeat(6, 1fr)" gap={6}>
+                {players.map((player, i) => (
+                  <PlayerCard key={player.id} player={player} rank={i + 1} />
+                ))}
+              </Grid>
+            </Box>
+          ))}
+        </Stack>
+      )}
     </div>
   );
 };
