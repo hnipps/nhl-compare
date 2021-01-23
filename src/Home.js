@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import logo from "./react.svg";
 import "./Home.css";
 import { Box, Container, Flex, Grid, Heading, Stack } from "@chakra-ui/react";
 
@@ -8,12 +7,30 @@ const Home = () => {
 
   useEffect(() => {
     const getPlayers = async () => {
-      const players = await fetch("/players").then((res) => res.json());
+      const players = await fetch("/map-stats").then((res) => res.json());
       console.log(players);
-      setPlayers(players.sets[0].players);
+      setPlayers(players);
     };
 
     getPlayers();
+  }, []);
+
+  useEffect(() => {
+    const getStats = async () => {
+      const stats = await fetch("/stats").then((res) => res.json());
+      console.log(stats);
+    };
+
+    getStats();
+  }, []);
+
+  useEffect(() => {
+    const getStats = async () => {
+      const stats = await fetch("/map-stats").then((res) => res.json());
+      console.log(stats);
+    };
+
+    getStats();
   }, []);
 
   return (

@@ -6,7 +6,8 @@
     "start": "razzle start",
     "build": "razzle build",
     "test": "razzle test --env=jsdom",
-    "start:prod": "NODE_ENV=production node build/server.js"
+    "start:prod": "NODE_ENV=production node build/server.js",
+    "start:test-server": "json-server --watch db/db.json --port 3004"
   },
   "dependencies": {
     "@chakra-ui/react": "^1.1.5",
@@ -21,6 +22,7 @@
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^1.12.0",
+    "json-server": "^0.16.3",
     "razzle": "3.3.11"
   }
 }

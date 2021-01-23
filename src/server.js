@@ -4,7 +4,10 @@ import { StaticRouter } from "react-router-dom";
 import express from "express";
 import { renderToString } from "react-dom/server";
 import { ChakraProvider } from "@chakra-ui/react";
-const fetch = require("node-fetch");
+import getPlayers from "./server/get-players";
+import getStats from "./server/get-stats";
+import mapPlayerStats from "./server/map-player-stats";
+import sortPlayers from "./server/sort-players";
 
 const assets = require(process.env.RAZZLE_ASSETS_MANIFEST);
 
@@ -53,11 +56,23 @@ server
   });
 
 server.get("/players", async (req, res) => {
-  const players = await fetch("http://54.158.170.220/api/v1/players", {
-    method: "POST",
-  }).then((res) => res.json());
-  console.log(players);
+  const players = await getPlayers();
   res.status(200).send(players);
+});
+
+server.get("/stats", async (req, res) => {
+  const stats = await getStats();
+
+  res.status(200).send(stats);
+});
+
+server.get("/map-stats", async (req, res) => {
+  const players = await getPlayers();
+  const stats = await getStats();
+  const playerStats = mapPlayerStats(players.sets[0].players, stats);
+  const sortedPlayers = sortPlayers(playerStats);
+
+  res.status(200).send(sortedPlayers);
 });
 
 export default server;
